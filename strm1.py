@@ -1,4 +1,8 @@
 #logistic
+# Added necessary pip install commands
+!pip install scikit-learn
+!pip install streamlit
+!pip install pandas
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
